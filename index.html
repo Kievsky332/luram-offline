@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>luram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <center>
+        <div id="centered"><p id="invis">Пожалуйста введите имя!</p>
+            <h1>Как тебя зовут ?</h1>
+            <input type="text" id="inpt" class="inpt" value="Аноним" placeholder="Аноним"><br><br>
+            <button type="submit" id="sbm" class="sbm" onclick="chat()">Зайти</button>
+        </div>
+        <div id="chat">
+            <input id="text"  class="inpt" placeholder="Ваше сообщение"><input type="submit" onclick="add_message()" class="sbm" value=">">
+            <output id="message"></output>
+        </div>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>

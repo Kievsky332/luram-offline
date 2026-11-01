@@ -1,6 +1,7 @@
 html,body {
     color: white;
     background-color:#101922; 
+    text-align: center;
 }
 #invis{
     color:red;
@@ -13,11 +14,12 @@ html,body {
 
 #centered{
     background: cadetblue;
-    margin-top: 20vh;
+    margin: 0 auto;
     font-size: 25px;
-    width: max-content;
+    width: fit-content;
     padding: 40px;
     border-radius: 20px;
+
 }
 .inpt{
     text-align: center;
